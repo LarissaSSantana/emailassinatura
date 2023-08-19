@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* Reset de margens e paddings para garantir um layout consistente */
+  body, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    background: rgb(12,146,111);
+    background: linear-gradient(266deg, rgba(12,146,111,1) 0%, rgba(16,102,55,1) 100%);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+
+  .logo img {
+    max-width: 180px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .divider-v {
+    border-right: 2px solid #eab829;
+    height: 100px;
+    margin-right: 10px;
+  }
+
+  #info {
+    list-style: none;
+    flex: 1;
+    color: #ffffff;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .role {
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .divider-h {
+    margin: 5px 0 10px 0;
+    border-bottom: 1px solid #ffffff;
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .tel, .site {
+    font-size: 14px;
+    color: #e3e3e3;
+    text-decoration: none;
+  }
+
+  .site:hover {
+    color: #0066cc;
+  }
+</style>
+</head>
+<body>
+  <section class="card">
+    <div class="logo">
+      <img src="https://i.imgur.com/HaGg9EN.png" alt="Logo">
+    </div>
+    
+    <div class="divider-v"></div>
+    
+    <ul id="info">
+      <li class="name">Larissa Santana</li>
+      <li class="role">Design Gráfico</li>
+      <li class="divider-h"></li>
+      <li class="tel">42 9913-1831</li>
+      <li class="site"><a href="http://marigaleote.com.br">marigaleote.com.br</a></li>
+    </ul>
+  </section>
+</body>
+</html>
